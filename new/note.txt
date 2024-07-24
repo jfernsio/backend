@@ -1,0 +1,16 @@
+get /users
+get /api/users
+
+get /api/users/43  --- get user w id 43
+get/api/users/3    --- get user w id 3
+
+DYNAMIC PATH PARAMETERS
+get /api/users/:id
+
+
+
+post /api/users  --create new user
+
+patch /api/users/23  --edit user w id 23
+
+delete /api/users/1  --delete user w id 1
